@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">VideoCalling</string>
+
+    <string name="agora_app_id">YOUR AGORA APP ID</string>
+    <string name="admob_app_id">YOUR ADMOB ID</string>
+    <string name="admob_unit_id">YOUR ADMOB UNIT ID</string>
+    <string name="agora_access_token">null</string>
+    <string name="no_internet">NO INTERNET</string>
+    <string name="no_inter_msg">Cannot perform the requested action without Internet Connection.</string>
+    <string name="open_settings">Open Settings</string>
+    <string name="cancel">Cancel</string>
+    <string name="searching_for_users">Searching for users...</string>
+    <string name="sign_in">Sign In</string>
+    <string name="welcome_to">Welcome to</string>
+    <string name="login">LOGIN</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="quote_one">This is so EXCITING! Isn\'t it?</string>
+    <string name="online_ct">%1$s SEARCHING</string>
+    <string name="start_search">START SEARCH</string>
+</resources>

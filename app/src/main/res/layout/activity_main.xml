@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:fillViewport="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:id="@+id/bgTop"
+            android:background="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"/>
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/lottie"
+            app:lottie_enableMergePathsForKitKatAndAbove="true"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_fileName="clouds.json"/>
+
+<!--        <com.airbnb.lottie.LottieAnimationView-->
+<!--            android:id="@+id/shareApp"-->
+<!--            android:clickable="true"-->
+<!--            android:focusable="true"-->
+<!--            android:layout_marginEnd="@dimen/padding_10"-->
+<!--            android:layout_marginStart="@dimen/padding_10"-->
+<!--            android:layout_marginBottom="@dimen/padding_10"-->
+<!--            android:foreground="?android:selectableItemBackground"-->
+<!--            android:layout_alignParentEnd="true"-->
+<!--            android:layout_width="64dp"-->
+<!--            android:layout_height="64dp"-->
+<!--            app:lottie_autoPlay="true"-->
+<!--            app:lottie_enableMergePathsForKitKatAndAbove="true"-->
+<!--            app:lottie_loop="true"-->
+<!--            app:lottie_fileName="profile.json"/>-->
+
+        <TextView
+            android:id="@+id/tv_username"
+            android:layout_marginTop="28dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:layout_marginStart="@dimen/padding_10"
+            android:layout_marginLeft="@dimen/padding_10"
+            android:textColor="@color/white"
+            android:text="Hello,"
+            android:fontFamily="@font/helvetica"/>
+
+
+        <TextView
+            android:id="@+id/tvQuote"
+            android:layout_marginStart="@dimen/padding_10"
+            android:layout_marginLeft="@dimen/padding_10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_username"
+            android:textSize="12sp"
+            android:textColor="@color/white"
+            android:text="@string/quote_one"
+            android:fontFamily="@font/helvetica"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/onlineCounter"
+            android:visibility="invisible"
+            android:layout_below="@id/bgTop"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cornerRadius="20dp"
+            android:text="@string/online_ct"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="@dimen/padding_10"
+            android:paddingEnd="46dp"
+            android:paddingRight="46dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:paddingStart="@dimen/padding_10"
+            android:paddingLeft="@dimen/padding_10"
+            android:layout_marginEnd="-40dp"
+            android:layout_marginRight="-40dp"
+            app:backgroundTint="@color/white"
+            android:fontFamily="@font/poppins_regular"
+            android:layout_gravity="end"/>
+
+        <LinearLayout
+            android:layout_marginTop="-15dp"
+            android:orientation="vertical"
+            android:layout_below="@id/bgTop"
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_layout">
+
+
+
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/homeLottie"
+                android:layout_gravity="center"
+                android:layout_marginTop="130dp"
+                app:lottie_enableMergePathsForKitKatAndAbove="true"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                app:lottie_fileName="home.json"
+                />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/startSearch"
+                app:icon="@drawable/ic_search_white"
+                app:iconGravity="textStart"
+                android:layout_marginTop="25dp"
+                android:layout_marginStart="45dp"
+                android:layout_marginEnd="45dp"
+                app:cornerRadius="20dp"
+                android:textStyle="bold"
+                app:elevation="4dp"
+                android:textSize="14sp"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/helvetica"
+                android:text="@string/start_search"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_logout"
+                app:icon="@drawable/ic_exit_to_app_black_24dp"
+                ads:iconTint="@color/black"
+                app:iconGravity="textStart"
+                android:backgroundTint="@color/grey"
+                android:layout_marginTop="25dp"
+                android:layout_marginStart="45dp"
+                android:layout_marginEnd="45dp"
+                app:cornerRadius="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                app:elevation="4dp"
+                android:textSize="14sp"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/helvetica"
+                android:text="SIGN OUT"/>
+
+
+            <FrameLayout
+                android:id="@+id/fl_adplaceholder"
+                android:layout_marginTop="6dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </FrameLayout>
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+</androidx.core.widget.NestedScrollView>

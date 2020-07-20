@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="transparent">#00000000</color>
+    <!-- Chat Activity -->
+    <color name="localBackground">#827b92</color>
+    <color name="remoteBackground">#484258</color>
+
+
+    <color name="white">#fff</color>
+    <color name="black">#000</color>
+
+
+
+    <color name="grey">#DFDDDD</color>
+    <color name="mediumGrey">#969696</color>
+    <color name="darkGrey">#575757</color>
+    <color name="lightgrey">#FFE0E0E0</color>
+    <color name="ripple_grey">#2E353E</color>
+
+</resources>

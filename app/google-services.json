@@ -1,0 +1,85 @@
+{
+  "project_info": {
+    "project_number": "619149480830",
+    "firebase_url": "https://videocalling-6407b.firebaseio.com",
+    "project_id": "videocalling-6407b",
+    "storage_bucket": "videocalling-6407b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:619149480830:android:3458f85cfd7f082e60592f",
+        "android_client_info": {
+          "package_name": "dev.abhishek.VideoCalling"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "619149480830-m84fogdr1hndbe9d44r94svvkbpldk14.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "dev.abhishek.VideoCalling",
+            "certificate_hash": "bcbcf0a6841b5ccec5ac2cded9c0c343a41f4768"
+          }
+        },
+        {
+          "client_id": "619149480830-l2kfjhapocoldkm67v0je7lkbrr9fee4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArTCR9ZfQ_J9QLoyWQYXz5Wy_QUeOQQC4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "619149480830-l2kfjhapocoldkm67v0je7lkbrr9fee4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:619149480830:android:59bfbe0d9385712860592f",
+        "android_client_info": {
+          "package_name": "dev.abhishek.videocalling"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "619149480830-86p1r5d5nnendvr0f9fu23bjia3aj070.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "dev.abhishek.videocalling",
+            "certificate_hash": "bcbcf0a6841b5ccec5ac2cded9c0c343a41f4768"
+          }
+        },
+        {
+          "client_id": "619149480830-l2kfjhapocoldkm67v0je7lkbrr9fee4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArTCR9ZfQ_J9QLoyWQYXz5Wy_QUeOQQC4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "619149480830-l2kfjhapocoldkm67v0je7lkbrr9fee4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
