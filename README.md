@@ -1,2 +1,2 @@
 # RandomVideoCall
-One-to-one random video chat application built using agora adk and firebase.
+One-to-one random video chat application built using agora sdk and firebase.
